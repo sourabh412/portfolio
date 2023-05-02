@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Python",
+        "img": "python.png"
+    },
+    {
+        "name": "Java",
+        "img": "java.png"
+    },
+    {
+        "name": "C/C++",
+        "img": "cc++.png"
+    },
+    {
+        "name": "PHP",
+        "img": "php.png"
+    },
+    {
+        "name": "Javascript",
+        "img": "js.png"
+    },
+    {
+        "name": "Kotlin",
+        "img": "kotlin.png"
+    },
+    {
+        "name": "Dart",
+        "img": "dart.png"
+    },
+    {
+        "name": "Django",
+        "img": "django.png"
+    },
+    {
+        "name": "React JS",
+        "img": "react.png"
+    },
+    {
+        "name": "HTML5",
+        "img": "html5.png"
+    },
+    {
+        "name": "CSS3",
+        "img": "css3.png"
+    },
+    {
+        "name": "MySQL",
+        "img": "mysql.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "img": "postgresql.png"
+    },
+    {
+        "name": "Mongo Db",
+        "img": "mongodb.png"
+    },
+    {
+        "name": "Firebase",
+        "img": "firebase.png"
+    },
+    {
+        "name": "Android Studio",
+        "img": "androidstudio.png"
+    },
+    {
+        "name": "Flutter",
+        "img": "flutter.png"
+    },
+    {
+        "name": "Node JS",
+        "img": "nodejs.png"
+    },
+    {
+        "name": "Three JS",
+        "img": "threejs.png"
+    },
+    {
+        "name": "Tailwind CSS",
+        "img": "tailwind.png"
+    },
+    {
+        "name": "Bootstrap",
+        "img": "bootstrap.png"
+    },
+    {
+        "name": "Figma",
+        "img": "figma.png"
+    },
+    {
+        "name": "Github",
+        "img": "github.png"
+    },
+    {
+        "name": "Neural Network",
+        "img": "neuralnetwork.png"
+    }
+]
