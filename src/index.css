@@ -36,7 +36,7 @@
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-image: url("./assets/images/neon_bg.jpg");
+  background-image: url("./assets/images/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   animation: animate_bg ease-in-out forwards infinite alternate 100s;
@@ -121,7 +121,7 @@
   align-items: center;
 }
 
-#social img {
+#social img, #small_menu img {
   padding: 10px;
   box-sizing: border-box;
   height: 100%;
@@ -176,6 +176,25 @@
   color: var(--theme-color);
 }
 
+#menu_sq{
+  display: none;
+  height: auto;
+  width: 160px;
+  background: var(--theme-bg-color);
+  border-radius: 10px;
+}
+
+#show_small_menu{
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 60px;
+}
+
+#small_menu{
+  display: none;
+}
+
 /* Navigation */
 
 #navigation {
@@ -217,6 +236,7 @@
   background-image: url(https://www.transparenttextures.com/patterns/cubes.png),
   linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, 
   #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
+  /* linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486); */
   background-position: bottom;
   border-radius: 12px;
   animation: animate_header_bg ease-in-out forwards infinite alternate 8s; 
@@ -282,4 +302,61 @@
     display: none;
   }
 
+}
+
+@media screen and (max-width: 1180px) {
+  #name {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #iam_header_child2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  #iam_skill_imgs {
+    display: none;
+  }
+
+  #frontend_dev div, #backend_dev div, #data_sci div, #app_dev div {
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  #frontend_dev div img, #backend_dev div img, #data_sci div img, #app_dev div img {
+    align-self: center;
+    margin-bottom: 10px;
+  }
+
+  #navigation{
+    display: none;
+  }
+
+  #dots{
+    display: none;
+  }
+
+  #container_1 {
+    grid-template-columns: 0fr 3fr 0fr;
+    grid-template-rows: 0.2fr 1.8fr;
+    grid-template-areas: "header header header" "navigation middle end";
+  }
+
+  .menu-h{
+    padding: 20px 10px;
+  }
+  
+  #social{
+    display: none;
+  }
+
+  #small_menu, #menu_sq, #show_small_menu{
+    display: block;
+  }
+
+  
 }

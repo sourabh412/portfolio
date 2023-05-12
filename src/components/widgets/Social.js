@@ -13,6 +13,7 @@ const container = {
     y: 0,
     x: 0,
     transition: {
+      duration: 0.2,
       delayChildren: 0.2,
       staggerChildren: 0.1
     }
@@ -32,16 +33,16 @@ function Social(props) {
   const social_ref = useRef();
 
   useEffect(() => {
-    let social_transiion = (e)=>{
+    let social_transition = (e)=>{
       if (!social_ref.current.contains(e.target)) {
         props.set_social_active(false);
       }
     }
 
-    document.addEventListener("mousedown",social_transiion);
+    document.addEventListener("mousedown",social_transition);
 
     return ()=>{
-      document.removeEventListener("mousedown",social_transiion);
+      document.removeEventListener("mousedown",social_transition);
     }
 
   })

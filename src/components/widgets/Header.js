@@ -68,6 +68,9 @@ function Header(props) {
       <div id="social" onClick={() => props.set_social_active(!props.social_active)}>
         <img src={social_menu_icon} alt="" />
       </div>
+      <div id="small_menu" onClick={() => props.set_small_menu(!props.small_menu)}>
+        <img src={social_menu_icon} alt="" />
+      </div>
     </div>
   )
 }

@@ -17,7 +17,7 @@ function About() {
       </div>
       <div id='frontend_dev' className='my-2 mt-7'>
         <div className='p-2 flex'>
-          <img className='rounded-lg h-32 flex-none' src={frontend_dev} alt="" />
+          <img className='rounded-lg h-32 w-32 flex-none' src={frontend_dev} alt="" />
           <div className='ml-3'>
             <h1 className='text-lg font-semibold text-slate-300 mb-1'>Frontend Developer</h1>
             <p className='text-sm text-slate-300'>I am a front-end developer with extensive expertise creating stunning web applications with practical

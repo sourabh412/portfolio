@@ -37,10 +37,10 @@ function Projects(props) {
     return (
         <motion.div initial={initial_stat} animate={animate_stat}>
             <div className='float-right'>
-                <h1 className='text-lg font-semibold mb-2 mr-2'>
+                <h1 className='text-md font-semibold mb-2 mr-2'>
                     Most recent first&emsp;
                     <span>
-                        <img className='h-6 w-6 inline' src={sort} alt="" />
+                        <img className='h-5 w-5 inline' src={sort} alt="" />
                     </span>
                 </h1>
             </div>
