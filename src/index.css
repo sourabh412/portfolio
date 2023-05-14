@@ -5,6 +5,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+@font-face {
+  font-family: "led-board";
+  src: url(../src/assets/advanced_dot_digital-7.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +35,44 @@
   --scrollbar-bg: rgb(1 2 3 / 40%);
 }
 
+/* cli */
+
+#cli_frame{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #041C32;
+  z-index: 10;
+}
+
+#cli{
+  height: 80vh;
+  width: 80vw;
+  padding: 10px 20px 50px 20px;
+  background-color: #04293A;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+#cli #cli_print{
+  border: none;
+  height: 100%;
+  width: 100%;
+  resize: none;
+  word-wrap: normal;
+  background-color: transparent;
+  scrollbar-color: transparent;
+  color: white;
+  font-weight: 500;
+  font-family: led-board, sans-serif;
+  scroll-behavior: auto;
+}
+
+#cli #cli_print::-webkit-scrollbar {
+  display: none;
+}
+
+/* main */
 #frame {
   display: flex;
   align-items: center;
