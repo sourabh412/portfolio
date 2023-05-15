@@ -21,7 +21,8 @@
   --theme-bg-color: rgba(16, 18, 27, 0.4);
   --border-color: rgba(113 119 144 / 25%);
   --theme-color: #f9fafb;
-  --inactive-color: rgba(142, 148, 172, 0.78);
+  /* --inactive-color: rgba(142, 148, 172, 0.78); */
+  --inactive-color: rgba(254, 249, 195, 0.78);
   --body-font: "Poppins", sans-serif;
   --hover-menu-bg: rgba(12 15 25 / 30%);
   --content-title-color: #999ba5;
@@ -64,8 +65,9 @@
   scrollbar-color: transparent;
   color: white;
   font-weight: 500;
-  font-family: led-board, sans-serif;
+  /* font-family: led-board, sans-serif; */
   scroll-behavior: auto;
+  font-size: small;
 }
 
 #cli #cli_print::-webkit-scrollbar {
@@ -79,7 +81,7 @@
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-image: url("./assets/images/bg2.jpg");
+  background-image: url("./assets/images/bg5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   animation: animate_bg ease-in-out forwards infinite alternate 100s;

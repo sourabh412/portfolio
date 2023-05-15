@@ -1,6 +1,4 @@
-const sample_text = `SOURABH$ conda create -n portfolio version==2.0
-Collecting package metadata (current_repodata.json): done
-Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+const sample_text = `SOOURABH$ conda create -n portfolio version==2.0
 Collecting package metadata (repodata.json): done
 Solving environment: done
 
@@ -37,9 +35,6 @@ You can now view portfolio_v2 in the browser.
 
   Local:            http://localhost:3000
   On Your Network:  http://192.168.1.44:3000
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
 
 portfolio compiled successfully...`;
 

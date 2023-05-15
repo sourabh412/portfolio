@@ -46,6 +46,7 @@ function Projects(props) {
             </div>
             {
                 newGit.map((project) => ((project.name1) && (project.type.includes(props.filter)) ?
+                <a href={project.html_url} target='_blank' rel="noreferrer" >
                     <div key={project.id} id='frontend_dev' className='my-2'>
                         <div className='p-2 flex'>
                             <img className='rounded-lg h-32 w-32 object-cover flex-none' src={"https://raw.githubusercontent.com/sourabh412/" + project.name + "/master/display.png"} alt="" />
@@ -54,7 +55,7 @@ function Projects(props) {
                                 <p className='text-sm text-slate-300'>{(project.desc)?project.desc:""}</p>
                             </div>
                         </div>
-                    </div> : <></>
+                    </div></a> : <></>
                 ))
             }
 
