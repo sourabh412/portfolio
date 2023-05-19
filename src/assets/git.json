@@ -38,14 +38,14 @@
         "id": 513605840,
         "desc": "A simple ThreeJS practice project built using ThreeJS, HTML5 and CSS3. Includes concepts of canvas, geometry formation, altering properties and orbitcontrols in ThreeJS.",
         "type": "web",
-        "name1": "Simple ThreeJS Page",
+        "name1": "ThreeJS Page 1",
         "link": null
     },
     {
         "id": 514590092,
         "desc": "A simple ThreeJS practice project built using ThreeJS, HTML5 and CSS3. Includes concepts of canvas, geometry formation, altering properties, orbitcontrols, animations and custom material in ThreeJS.",
         "type": "web",
-        "name1": "Simple ThreeJS Page",
+        "name1": "ThreeJS Page 2",
         "link": null
     },
     {
@@ -74,6 +74,34 @@
         "desc": "Modern UI of a ticket booking app built using Flutter and Dart. The app is a replica of UI design acquired from dribble.com, can be further converted to working model with the required Db and backend.",
         "type": "mobile UI/UX",
         "name1": "Ticket booking app",
+        "link": null
+    },
+    {
+        "id": 597013826,
+        "desc": "",
+        "type": "data",
+        "name1": "Face mask detection",
+        "link": null
+    },
+    {
+        "id": 597016909,
+        "desc": "",
+        "type": "data",
+        "name1": "Face tracker",
+        "link": null
+    },
+    {
+        "id": 635383094,
+        "desc": "Personal portfolio website that has been upgraded and has a better user interface. You can reach me by using the contact page.",
+        "type": "web",
+        "name1": "Personal Portfolio v2",
+        "link": "/"
+    },
+    {
+        "id": 595668340,
+        "desc": "",
+        "type": "data mobile",
+        "name1": "Sign language detection",
         "link": null
     }
 ]
