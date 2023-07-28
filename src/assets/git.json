@@ -25,7 +25,7 @@
         "desc": "Just send me a message from the contacts section, we can have a coffee date later 😊.",
         "type": "web",
         "name1": "Personal Portfolio",
-        "link": "/"
+        "link": null
     },
     {
         "id": 525797449,
@@ -78,14 +78,14 @@
     },
     {
         "id": 597013826,
-        "desc": "",
+        "desc": "A deep convolutional neural network built using Tensorflow and opencv in Python to determine whether or not a person is wearing a mask. The model is trained using a custom dataset.",
         "type": "data",
         "name1": "Face mask detection",
         "link": null
     },
     {
         "id": 597016909,
-        "desc": "",
+        "desc": "A deep convolutional neural network constructed in Python using Tensorflow and opencv to track a person's face. The model has been using a custom dataset.",
         "type": "data",
         "name1": "Face tracker",
         "link": null
@@ -99,7 +99,7 @@
     },
     {
         "id": 595668340,
-        "desc": "",
+        "desc": "A flutter application that recognises sign language in real time using deep convolutional neural networks and computer vision. The model is built using Tensorflow and a custom dataset.",
         "type": "data mobile",
         "name1": "Sign language detection",
         "link": null

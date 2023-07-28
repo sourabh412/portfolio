@@ -33,6 +33,11 @@ function Projects(props) {
 
     let newGit = joinById(git, gitDesc);
     sort_by_key(newGit, 'id');
+   
+    const handleOnLoad = (event) => {
+        // console.log(event.target);
+        event.target.classList.remove("animate-pulse");
+    }
 
     return (
         <motion.div initial={initial_stat} animate={animate_stat}>
@@ -46,10 +51,10 @@ function Projects(props) {
             </div>
             {
                 newGit.map((project) => ((project.name1) && (project.type.includes(props.filter)) ?
-                <a href={project.html_url} target='_blank' rel="noreferrer" >
-                    <div key={project.id} id='frontend_dev' className='my-2'>
+                <a key={project.id} href={project.html_url} target='_blank' rel="noreferrer" className="project_unit">
+                    <div id='frontend_dev' className='my-2'>
                         <div className='p-2 flex'>
-                            <img className='rounded-lg h-32 w-32 object-cover flex-none' src={"https://raw.githubusercontent.com/sourabh412/" + project.name + "/master/display.png"} alt="" />
+                            <img onLoad={handleOnLoad} className='bg-white animate-pulse rounded-lg h-32 w-32 object-cover flex-none' src={"https://raw.githubusercontent.com/sourabh412/" + project.name + "/master/display.png"} alt="" />
                             <div className='ml-3'>
                                 <h1 className='text-lg font-semibold text-slate-300 mb-1'>{(project.name1)?project.name1:""}</h1>
                                 <p className='text-sm text-slate-300'>{(project.desc)?project.desc:""}</p>

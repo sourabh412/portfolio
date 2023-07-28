@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import cli_text from "../utils/cli_text";
 
 function Cli(props) {
@@ -13,7 +13,6 @@ function Cli(props) {
         const interval = setInterval(() => {
             if (currentIndex < cli_text.length - 1) {
                 setcliTextVal(prevValue => prevValue + cli_text[currentIndex]);
-                console.log(cli_text[currentIndex]);
                 cli_print.scrollTop = cli_print.scrollHeight;
                 currentIndex++;
             } else {

@@ -8,6 +8,12 @@ import { initial_stat, animate_stat } from "../utils/values";
 
 
 function About() {
+    
+  const handleOnLoad = (event) => {
+    // console.log(event.target);
+    event.target.classList.remove("animate-pulse");
+  }
+
   return (
     <motion.div initial={initial_stat} animate={animate_stat}>
       <div id="about_header">
@@ -17,7 +23,7 @@ function About() {
       </div>
       <div id='frontend_dev' className='my-2 mt-7'>
         <div className='p-2 flex'>
-          <img className='rounded-lg h-32 w-32 flex-none' src={frontend_dev} alt="" />
+          <img onLoad={handleOnLoad} className='bg-white animate-pulse rounded-lg h-32 w-32 flex-none' src={frontend_dev} alt="" />
           <div className='ml-3'>
             <h1 className='text-lg font-semibold text-slate-300 mb-1'>Frontend Developer</h1>
             <p className='text-sm text-slate-300'>I am a front-end developer with extensive expertise creating stunning web applications with practical
@@ -27,7 +33,7 @@ function About() {
       </div>
       <div id='backend_dev' className='my-2'>
         <div className='p-2 flex'>
-          <img className='rounded-lg h-32 flex-none' src={backend_dev} alt="" />
+          <img onLoad={handleOnLoad} className='bg-white animate-pulse rounded-lg h-32 flex-none' src={backend_dev} alt="" />
           <div className='ml-3'>
             <h1 className='text-lg font-semibold text-slate-300 mb-1'>Backend Developer</h1>
             <p className='text-sm text-slate-300'>I am a backend developer and have vast experience in developing web applications with variety of 
@@ -37,7 +43,7 @@ function About() {
       </div>
       <div id='data_sci' className='my-2'>
         <div className='p-2 flex'>
-          <img className='rounded-lg h-32 flex-none' src={data_sci} alt="" />
+          <img onLoad={handleOnLoad} className='bg-white animate-pulse rounded-lg h-32 flex-none' src={data_sci} alt="" />
           <div className='ml-3'>
             <h1 className='text-lg font-semibold text-slate-300 mb-1'>Data Scientist</h1>
             <p className='text-sm text-slate-300'>Working with data is what I consider to be the modern age's oil ever since I first became familiar
@@ -47,7 +53,7 @@ function About() {
       </div>
       <div id='app_dev' className='my-2'>
         <div className='p-2 flex'>
-          <img className='rounded-lg h-32 flex-none' src={app_dev} alt="" />
+          <img onLoad={handleOnLoad} className='bg-white animate-pulse rounded-lg h-32 flex-none' src={app_dev} alt="" />
           <div className='ml-3'>
             <h1 className='text-lg font-semibold text-slate-300 mb-1'>Android Developer</h1>
             <p className='text-sm text-slate-300'>As an Android developer, my main tools on <b>Android Studio</b> are <b>dart</b> and <b>flutter</b>. 

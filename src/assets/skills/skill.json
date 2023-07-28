@@ -20,16 +20,16 @@
         "img": "js.png"
     },
     {
-        "name": "Kotlin",
-        "img": "kotlin.png"
-    },
-    {
         "name": "Dart",
         "img": "dart.png"
     },
     {
         "name": "Django",
         "img": "django.png"
+    },
+    {
+        "name": "Tensorflow",
+        "img": "tensorflow.png"
     },
     {
         "name": "React JS",
@@ -90,9 +90,5 @@
     {
         "name": "Github",
         "img": "github.png"
-    },
-    {
-        "name": "Tensorflow",
-        "img": "tensorflow.png"
     }
 ]

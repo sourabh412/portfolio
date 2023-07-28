@@ -63,30 +63,6 @@ function MainContainer() {
     <Cli mainDisplay={mainDisplay} setmainDisplay={setmainDisplay} />
     }
     </>
-    // <AnimatePresence>
-    //   <motion.div id="container_1" variants={startup} initial="hidden" animate="visible">
-    //     <Header title='home'
-    //      set_social_active={set_social_active} social_active={social_active} 
-    //      mid_comp={midComp} set_mid_comp={setmidComp} 
-    //      set_small_menu={set_small_menu} small_menu={small_menu} /> {/* projects skills contact */}
-    //     <Navigation mid_comp={midComp} set_mid_comp={setmidComp} />
-    //     <Middle mid_comp={midComp} />
-    //     <End />
-    //     {
-    //       social_active &&
-    //       <div id="social_explore">
-    //         <Social set_social_active={set_social_active} social_active={social_active} />
-    //       </div>
-    //     }
-    //     {
-    //       small_menu &&
-    //       <div id="show_small_menu">
-    //         <SmallMenu set_small_menu={set_small_menu} small_menu={small_menu}
-    //         mid_comp={midComp} set_mid_comp={setmidComp} />
-    //       </div>
-    //     }
-    //   </motion.div>
-    // </AnimatePresence>
   )
 }
 

@@ -15,6 +15,7 @@
   padding: 0;
   overflow: hidden;
   transition-duration: 0.5s;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -274,7 +275,6 @@
 }
 
 /* I am */
-
 #iam_header{
   width: 100%;
   height: 150px;
@@ -300,7 +300,6 @@
 }
 
 /* About */
-
 #frontend_dev, #backend_dev, #data_sci, #app_dev{
   width: 100%;
   border-radius: 12px;
@@ -335,9 +334,7 @@
 
 
 /* Responsive */
-
 @media screen and (max-width: 1300px) {
-  
   #container_1 {
     grid-template-columns: 1.2fr 5fr;
     grid-template-areas: "header header" "navigation middle";
@@ -359,10 +356,22 @@
   #iam_header_child2 {
     display: none;
   }
+  
+  #dots{
+    width: auto;
+  }
+  
+  #social{
+    display: none;
+  }
+
+  #small_menu, #menu_sq, #show_small_menu{
+    display: block;
+  }
+
 }
 
 @media screen and (max-width: 700px) {
-
   #iam_skill_imgs {
     display: none;
   }
