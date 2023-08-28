@@ -11,7 +11,7 @@ function Projects(props) {
     function sort_by_key(array, key) {
         return array.sort(function (a, b) {
             var x = a[key]; var y = b[key];
-            return ((x > y) ? -1 : ((x < y) ? 1 : 0));
+            return ((x < y) ? -1 : ((x > y) ? 1 : 0));
         });
     }
 
@@ -32,7 +32,7 @@ function Projects(props) {
         )
 
     let newGit = joinById(git, gitDesc);
-    sort_by_key(newGit, 'id');
+    sort_by_key(newGit, 'pref');
    
     const handleOnLoad = (event) => {
         // console.log(event.target);
@@ -41,14 +41,6 @@ function Projects(props) {
 
     return (
         <motion.div initial={initial_stat} animate={animate_stat}>
-            <div className='float-right'>
-                <h1 className='text-md font-semibold mb-2 mr-2'>
-                    Most recent first&emsp;
-                    <span>
-                        <img className='h-5 w-5 inline' src={sort} alt="" />
-                    </span>
-                </h1>
-            </div>
             {
                 newGit.map((project) => ((project.name1) && (project.type.includes(props.filter)) ?
                 <a key={project.id} href={project.html_url} target='_blank' rel="noreferrer" className="project_unit">

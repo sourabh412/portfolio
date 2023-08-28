@@ -1,12 +1,14 @@
 [
     {
+        "pref": 1,
         "id": 462204056,
         "desc": "A complex web application built using Python, Django, Bootstrap, HTML5, CSS3, JS and PostgreSQL for Db connection. This web app allows the management of student records and proctoring related components of the college record management of students.",
         "type": "web",
         "name1": "Proctoring System",
-        "link": "https://bmsce-ise-proc.herokuapp.com/"
+        "link": null
     },
     {
+        "pref": 12,
         "id": 533645468,
         "desc": "A web application built using Bootstrap, HTML5, CSS3, PHP, MySQL and Apache Server. This web app depicts the management of documents digitally, documents are stored in database. Similar systems are being used by many apps and companies of which some are GPay and Digilocker.",
         "type": "web",
@@ -14,6 +16,7 @@
         "link": null
     },
     {
+        "pref": 10,
         "id": 504599992,
         "desc": "An android app built using Java and XML on Android Studio to perform basic operations of storing, retrieving nad updating the notes using Room Database for storage.",
         "type": "mobile",
@@ -21,6 +24,7 @@
         "link": null
     },
     {
+        "pref": 4,
         "id": 544319624,
         "desc": "Just send me a message from the contacts section, we can have a coffee date later 😊.",
         "type": "web",
@@ -28,6 +32,7 @@
         "link": null
     },
     {
+        "pref": 15,
         "id": 525797449,
         "desc": "A simple android application built using Java and XML. Not a working model... just UI.",
         "type": "mobile",
@@ -35,6 +40,7 @@
         "link": null
     },
     {
+        "pref": 14,
         "id": 513605840,
         "desc": "A simple ThreeJS practice project built using ThreeJS, HTML5 and CSS3. Includes concepts of canvas, geometry formation, altering properties and orbitcontrols in ThreeJS.",
         "type": "web",
@@ -42,6 +48,7 @@
         "link": null
     },
     {
+        "pref": 13,
         "id": 514590092,
         "desc": "A simple ThreeJS practice project built using ThreeJS, HTML5 and CSS3. Includes concepts of canvas, geometry formation, altering properties, orbitcontrols, animations and custom material in ThreeJS.",
         "type": "web",
@@ -49,6 +56,7 @@
         "link": null
     },
     {
+        "pref": 5,
         "id": 542227891,
         "desc": "A simple web application built using HTML5, Bootstrap,CSS3, PHP, MySQL, Apache Server and Google's OAuth2 api for login. This web app is a simpler version of currently available Google Classroom, that allows the creation and management of a virual classroom.",
         "type": "web",
@@ -56,6 +64,7 @@
         "link": null
     },
     {
+        "pref": 11,
         "id": 557384930,
         "desc": "My first flutter application built using Flutter and Dart. Fetches the time for different timezones using 'World Time API' and displays it on the screen. Allows user to select timezone.",
         "type": "mobile",
@@ -63,6 +72,7 @@
         "link": null
     },
     {
+        "pref": 6,
         "id": 561287595,
         "desc": "Instagram clone application built using Flutter and Dart. This flutter application is built as both an android app and a responsive web app. The backend consists of Firebase Firestore Db and Firebase storage.",
         "type": "mobile web",
@@ -70,6 +80,7 @@
         "link": null
     },
     {
+        "pref": 9,
         "id": 563918471,
         "desc": "Modern UI of a ticket booking app built using Flutter and Dart. The app is a replica of UI design acquired from dribble.com, can be further converted to working model with the required Db and backend.",
         "type": "mobile UI/UX",
@@ -77,6 +88,7 @@
         "link": null
     },
     {
+        "pref": 7,
         "id": 597013826,
         "desc": "A deep convolutional neural network built using Tensorflow and opencv in Python to determine whether or not a person is wearing a mask. The model is trained using a custom dataset.",
         "type": "data",
@@ -84,6 +96,7 @@
         "link": null
     },
     {
+        "pref": 8,
         "id": 597016909,
         "desc": "A deep convolutional neural network constructed in Python using Tensorflow and opencv to track a person's face. The model has been using a custom dataset.",
         "type": "data",
@@ -91,6 +104,7 @@
         "link": null
     },
     {
+        "pref": 2,
         "id": 635383094,
         "desc": "Personal portfolio website that has been upgraded and has a better user interface. You can reach me by using the contact page.",
         "type": "web",
@@ -98,6 +112,7 @@
         "link": "/"
     },
     {
+        "pref": 3,
         "id": 595668340,
         "desc": "A flutter application that recognises sign language in real time using deep convolutional neural networks and computer vision. The model is built using Tensorflow and a custom dataset.",
         "type": "data mobile",
