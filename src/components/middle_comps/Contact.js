@@ -31,7 +31,7 @@ function Contact() {
         Direct contact
       </div>
       <div className='my-5 flex flex-col gap-3'>
-        <a className="px-6 py-4 w-4/5 bg-[var(--theme-bg-color)] flex items-center gap-3 flex-1 rounded-lg text-ellipsis" href='mailto:hiremathsourabh12@gmail.com' rel="noreferrer"><span className='h-10 w-10 inline-block flex-none'><img src={gmail} alt="imgs" /></span> hiremathsourabh12@gmail.com</a>
+        <a className="px-6 py-4 w-4/5 bg-[var(--theme-bg-color)] flex items-center gap-3 flex-1 rounded-lg text-ellipsis" href='mailto:sourabh.hiremath@outlook.com' rel="noreferrer"><span className='h-10 w-10 inline-block flex-none'><img src={gmail} alt="imgs" /></span> sourabh.hiremath@outlook.com</a>
         <a className="px-6 py-4 w-auto bg-[var(--theme-bg-color)] flex items-center gap-3 flex-1 rounded-lg overflow-ellipsis" href='tel:+91 7204593495' rel="noreferrer"><span className='h-10 w-10 inline-block flex-none'><img src={phone} alt="imgs" /></span> +91 720493495</a>
       </div>
       <div className='mt-8 text-lg text-slate-300'>

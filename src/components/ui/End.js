@@ -12,7 +12,7 @@ function End() {
       </div>
       <div className='px-12 w-full pt-3 flex justify-center' id="resume_opt">
         {/* <button className='h-8 w-8' disabled={true}><img src={left_arrow} alt="" /></button> */}
-        <a href="https://drive.google.com/file/d/1QVdw3NRNPf8uLgcoWKclbelIOZREpYjT/view?usp=sharing" target='_blank' rel='noreferrer' download="Sourabh_H_resume" className='h-8 w-8'><img src={download} alt="" /></a>
+        <a href="https://drive.google.com/file/d/1lzbYwksKvjJE-Ptj6FLmVE_UkUuvXN3j/view?usp=sharing" target='_blank' rel='noreferrer' download="Sourabh_H_resume" className='h-8 w-8'><img src={download} alt="" /></a>
         {/* <button className='h-8 w-8' disabled={true}><img src={right_arrow} alt="" /></button> */}
       </div>
     </div>

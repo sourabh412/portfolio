@@ -82,9 +82,10 @@
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-image: url("./assets/images/bg5.jpg");
+  /* background-image: url("./assets/images/bg5.jpg"); */
+  background-image: url("./assets/images/bg10.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 120%;
   animation: animate_bg ease-in-out forwards infinite alternate 100s;
 }
 

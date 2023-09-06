@@ -18,7 +18,7 @@ function About() {
     <motion.div initial={initial_stat} animate={animate_stat}>
       <div id="about_header">
         <h1 className='text-2xl font-semibold text-slate-300'>I am a
-          <span className='text-yellow-100'> third-year undergraduate </span>
+          <span className='text-yellow-100'> fourth-year undergraduate </span>
           student at <span className='text-yellow-100'> BMSCE </span> in Bangalore.</h1>
       </div>
       <div id='frontend_dev' className='my-2 mt-7'>
@@ -27,7 +27,7 @@ function About() {
           <div className='ml-3'>
             <h1 className='text-lg font-semibold text-slate-300 mb-1'>Frontend Developer</h1>
             <p className='text-sm text-slate-300'>I am a front-end developer with extensive expertise creating stunning web applications with practical
-             and seamless user experiences using cutting-edge <b>react</b> and <b>CSS</b> liberties as well as <b>Three.js</b> knowledge.</p>
+             and seamless user experiences using cutting-edge <b>react</b> and <b>CSS</b> libraries as well as knowledge of <b>Three.js</b>.</p>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ function About() {
           <div className='ml-3'>
             <h1 className='text-lg font-semibold text-slate-300 mb-1'>Android Developer</h1>
             <p className='text-sm text-slate-300'>As an Android developer, my main tools on <b>Android Studio</b> are <b>dart</b> and <b>flutter</b>. 
-            I used flutter and android studio to create a couple apps as custom practise projects, along with <b>sqLite Db</b> and <b>Room Db</b>.</p>
+            I used flutter and android studio to create a couple apps as custom practice projects, along with <b>sqLite Db</b> and <b>Room Db</b>.</p>
           </div>
         </div>
       </div>

@@ -118,5 +118,13 @@
         "type": "data mobile",
         "name1": "Sign language detection",
         "link": null
+    },
+    {
+        "pref": 7,
+        "id": 653123250,
+        "desc": "A recurrant neural network built using Tensorflow in python to detect and classify the comments over various toxicity levels. The model is trained on a dataset obtained from kaggle.",
+        "type": "data",
+        "name1": "Comment toxicity detection",
+        "link": null
     }
 ]
