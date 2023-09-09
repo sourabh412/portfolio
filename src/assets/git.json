@@ -89,6 +89,22 @@
     },
     {
         "pref": 7,
+        "id": 689434852,
+        "desc": "A deep convolutional neural network built using Tensorflow in python to detect, classify and segment brain tumors in and MRI image. The model is trained on a dataset obtained from kaggle.",
+        "type": "data",
+        "name1": "Brain MRI segmentation",
+        "link": null
+    },
+    {
+        "pref": 7,
+        "id": 653123250,
+        "desc": "A recurrant neural network built using Tensorflow in python to detect and classify the comments over various toxicity levels. The model is trained on a dataset obtained from kaggle.",
+        "type": "data",
+        "name1": "Comment toxicity detection",
+        "link": null
+    },
+    {
+        "pref": 7,
         "id": 597013826,
         "desc": "A deep convolutional neural network built using Tensorflow and opencv in Python to determine whether or not a person is wearing a mask. The model is trained using a custom dataset.",
         "type": "data",
@@ -117,14 +133,6 @@
         "desc": "A flutter application that recognises sign language in real time using deep convolutional neural networks and computer vision. The model is built using Tensorflow and a custom dataset.",
         "type": "data mobile",
         "name1": "Sign language detection",
-        "link": null
-    },
-    {
-        "pref": 7,
-        "id": 653123250,
-        "desc": "A recurrant neural network built using Tensorflow in python to detect and classify the comments over various toxicity levels. The model is trained on a dataset obtained from kaggle.",
-        "type": "data",
-        "name1": "Comment toxicity detection",
         "link": null
     }
 ]
