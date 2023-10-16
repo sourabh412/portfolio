@@ -56,7 +56,7 @@ function Header(props) {
                 <div id="menu">
                 </div>
       }
-      <div id="name">
+      {/* <div id="name">
         <img src={s} alt="" />
         <img src={o} alt="" />
         <img src={u} alt="" />
@@ -64,7 +64,7 @@ function Header(props) {
         <img src={a} alt="" />
         <img src={b} alt="" />
         <img src={h} alt="" />
-      </div>
+      </div> */}
       <div id="social" onClick={() => props.set_social_active(!props.social_active)}>
         <img src={social_menu_icon} alt="" />
       </div>

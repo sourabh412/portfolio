@@ -52,7 +52,7 @@ function Social(props) {
         <motion.a variants={item} href='https://www.instagram.com/sourabh_hiremath412/' rel="noreferrer" target="_blank"><img src={instagram} alt="" /></motion.a>
         <motion.a variants={item} href='https://www.facebook.com/HiremathSourabh412' rel="noreferrer" target="_blank"><img src={facebook} alt="" /></motion.a>
         <motion.a variants={item} href='https://github.com/sourabh412' rel="noreferrer" target="_blank"><img src={github} alt="" /></motion.a>
-        <motion.a variants={item} href='https://www.linkedin.com/in/sourabh-hiremath-23b93a225/' rel="noreferrer" target="_blank"><img src={linkedin} alt="" /></motion.a>
+        <motion.a variants={item} href='https://www.linkedin.com/in/sourabh-hiremath-393563292' rel="noreferrer" target="_blank"><img src={linkedin} alt="" /></motion.a>
     </motion.div>
   )
 }

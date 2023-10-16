@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import gitDesc from '../../assets/git.json';
-import sort from '../../assets/icons/sort_80.png';
 import { motion } from "framer-motion";
 import { initial_stat, animate_stat } from "../utils/values";
 
