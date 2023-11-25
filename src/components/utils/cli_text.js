@@ -1,4 +1,4 @@
-const sample_text = `SOOURABH$ conda create -n portfolio version==2.0
+const sample_text = `SOOURABH$ conda create -n portfolio version==2.16
 Collecting package metadata (repodata.json): done
 Solving environment: done
 
