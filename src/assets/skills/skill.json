@@ -90,5 +90,9 @@
     {
         "name": "Github",
         "img": "github.png"
+    },
+    {
+        "name": "Docker",
+        "img": "docker.png"
     }
 ]
